@@ -7,9 +7,8 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class BlogItemImageComponent implements OnInit {
 
-  @Input() image = 'http://osnews.pl/wp-content/uploads/2016/06/it-grafika.jpg';
-  text = 'Tytuł';
-
+  @Input() image: string = '';
+  @Input() id: number = 0;
 
   constructor() { }
 

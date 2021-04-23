@@ -8,6 +8,8 @@ import {Component, Input, OnInit} from '@angular/core';
 export class BlogItemTextComponent implements OnInit {
 
   @Input() text: string = '';
+  @Input() id: number = 0;
+  @Input() title: string = '';
 
   constructor() { }
 
